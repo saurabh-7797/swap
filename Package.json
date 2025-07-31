@@ -1,0 +1,23 @@
+{
+    "name": "amm-tester-native",
+    "version": "1.0.0",
+    "description": "AMM tester for native Solana program without Anchor",
+    "main": "test-amm.js",
+    "scripts": {
+      "test": "node test-amm.js",
+      "init": "node test-amm.js init",
+      "add": "node test-amm.js add",
+      "remove": "node test-amm.js remove",
+      "swap": "node test-amm.js swap",
+      "info": "node test-amm.js info"
+    },
+    "dependencies": {
+      "@solana/web3.js": "^1.87.6",
+      "@solana/spl-token": "^0.3.11",
+      "borsh": "^0.7.0"
+    },
+    "devDependencies": {},
+    "keywords": ["solana", "amm", "defi", "blockchain"],
+    "author": "",
+    "license": "MIT"
+  }
